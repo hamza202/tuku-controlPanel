@@ -224,6 +224,16 @@ span.infobox_rate {
     font-size: 27px;
     color: #666;
 }
+.fw-400{
+    font-weight: 400 !important;
+}
+ul.parsley-errors-list{
+    list-style: none;
+    padding-right: 0;
+}
+ul.parsley-errors-list li{
+    color: red;
+}
 #map{
     height: 600px;
 }
