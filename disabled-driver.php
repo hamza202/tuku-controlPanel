@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>توكو || المستخدمين</title>
+    <title>توكو || سائقين معلقين</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -123,7 +123,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    المستخدمين والشركات
+                                    السائقيين المعلقين
                                 </h3>
                             </div>
                         </div>
@@ -132,70 +132,93 @@
                                class="btn btn-success  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
                                         <i class="fas fa-plus-circle"></i>
-                                        <span> مستخدم جديد </span>
+                                        <span> سائق جديد </span>
                                     </span>
                             </a>
                         </div>
                     </div>
                     <div class="m-portlet__body">
                         <div class="table-responsive">
-                        <!--begin: Datatable -->
-                        <table class="table table-striped- table-bordered table-hover table-checkable" id="m_table_1">
-                            <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>الأسم</th>
-                                <th>الطلبات</th>
-                                <th>باقي مستحقات</th>
-                                <th>تفاصيل</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>حمزة ابو عيطة</td>
-                                <td>15</td>
-                                <td>
-                                    500 ₪
-                                </td>
-                                <td>
-                                    <a href="users-details.php"
-                                       class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom
+                            <!--begin: Datatable -->
+                            <table class="table table-striped- table-bordered table-hover table-checkable"
+                                   id="m_table_1">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>الأسم</th>
+                                    <th>رقم هاتف</th>
+                                    <th>المدينة</th>
+                                    <th>تفعيل</th>
+                                    <th>تفاصيل</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>حمزة ابو عيطة</td>
+                                    <td>0591234567</td>
+                                    <td>
+                                        رام الله
+                                    </td>
+                                    <td>
+                                        <button type="button"
+                                                data-toggle="modal" data-target="#m_modal_5"
+                                                class="btn btn-outline-success m-btn m-btn--icon m-btn--icon-only">
+                                            <i class="fa fa-check"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <a href="disabled-driver-details.php"
+                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom
                                        m-btn--pill m-btn--air">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>شركة ارامكو</td>
-                                <td>12</td>
-                                <td>
-                                    450 ₪
-                                </td>
-                                <td>
-                                    <a href="users-details.php"
-                                       class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>شركة ايكيا</td>
-                                <td>10</td>
-                                <td>
-                                    400 ₪
-                                </td>
-                                <td>
-                                    <a href="users-details.php"
-                                       class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
-                                        <i class="far fa-eye"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>محمد عجور</td>
+                                    <td>0591234567</td>
+                                    <td>
+                                        الخليل
+                                    </td>
+                                    <td>
+                                        <button type="button"
+                                                data-toggle="modal" data-target="#m_modal_5"
+                                                class="btn btn-outline-success m-btn m-btn--icon m-btn--icon-only">
+                                            <i class="fa fa-check"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <a href="disabled-driver-details.php"
+                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>خالد الخالدي</td>
+                                    <td>0591234567</td>
+                                    <td>
+                                        طولكرم
+                                    </td>
+                                    <td>
+                                        <button type="button"
+                                                data-toggle="modal" data-target="#m_modal_5"
+                                                class="btn btn-outline-success m-btn m-btn--icon m-btn--icon-only">
+                                            <i class="fa fa-check"></i>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <a href="disabled-driver-details.php"
+                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -218,43 +241,65 @@
 <!-- end::Scroll Top -->
 <div class="modal fade" id="m_modal_6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
      aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-dialog modal-dialog modal-lg " role="document">
         <div class="modal-content">
             <form action="#" id="user_register_form" data-parsley-validate="" data-parsley-trigger="change">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">تسجيل مستخدم جديد</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">تسجيل سائق جديد</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <div class="row ">
-                        <div class="col-lg-12">
+                        <div class="col-lg-4">
                             <div class="form-group m-form__group mb-4">
-                                <label>اسم المستخدم/الشركة:</label>
-                                <input required type="text" placeholder="الإسم" name="user_name"
+                                <label>اسم السائق:</label>
+                                <input required type="text" placeholder="الإسم"
                                        class="form-control m-input m-input--square">
                             </div>
                         </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
+                            <div class="form-group1 m-form__group">
+                                <label for="exampleInputEmail1">المدينة</label>
+                                <div></div>
+                                <select class="custom-select form-control" required>
+                                    <option selected="" value="">اختر مدينة</option>
+                                    <option value="1">طولكرم</option>
+                                    <option value="2">جنين</option>
+                                    <option value="3">بيت لحم</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
                             <div class="form-group m-form__group mb-4">
                                 <label>بريد الكتروني</label>
-                                <input required type="email" name="user_email" placeholder="info@hotmail.com"
+                                <input required type="email" placeholder="info@hotmail.com"
                                        class="form-control m-input m-input--square">
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="form-group m-form__group mb-4">
                                 <label>رقم هاتف:</label>
-                                <input required name="user_number" minlength="7" type="number" placeholder="0595779004"
+                                <input required minlength="7" type="number" placeholder="0595779004"
                                        class="form-control m-input m-input--square">
                             </div>
                         </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
+                            <div class="form-group m-form__group mb-4">
+                                <label>نوع السيارة:</label>
+                                <input required type="text" placeholder="Mercedes-Benz 2019"
+                                       class="form-control m-input m-input--square">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group m-form__group mb-4">
+                                <label>رقم السيارة:</label>
+                                <input required type="text" placeholder="3-1860-95"
+                                       class="form-control m-input m-input--square">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
                             <div class="form-group m-form__group mb-4">
                                 <label>كلمة المرور:</label>
                                 <input minlength="6" required id="password" type="password" name="password"
@@ -263,7 +308,7 @@
                                        class="form-control m-input m-input--square">
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-4">
                             <div class="form-group m-form__group mb-4">
                                 <label>تأكيد كلمة المرور:</label>
                                 <input minlength="6" required type="password" id="password_again"
@@ -271,6 +316,26 @@
                                        placeholder="تأكيد كلة المرور"
                                        value="" data-parsley-minlength-message="يجب ادخال 6 احرف على الأقل"
                                        class="form-control m-input m-input--square">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">رخصة السائق:</label>
+                                <div></div>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="customFile">
+                                    <label class="custom-file-label" for="customFile">رخصة السائق</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="form-group m-form__group">
+                                <label for="InputEmail1">رخصة المركبة:</label>
+                                <div></div>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="customFile1">
+                                    <label class="custom-file-label" for="customFile1">رخصة المركبة</label>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -287,70 +352,29 @@
 <!--begin::Modal-->
 <div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">تفعيل الحساب</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <form action="#">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">تفعيل الحساب</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        هل انت متأكد من تفعيل هذا الحساب؟
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                    <button type="submit" class="btn btn-success">تفعيل</button>
+                </div>
             </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من تفعيل هذا الحساب؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-success">تأكيد</button>
-            </div>
-        </div>
+        </form>
     </div>
 </div>
-<div class="modal fade" id="m_modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel1">اضافة للمميز</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من اضافة هذا الحساب للحسابات المميزة؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-success">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel2">حذف الحساب</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <p>
-                    هل انت متأكد من حذف هذا الحساب؟
-                </p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                <button type="button" class="btn btn-danger">تأكيد</button>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <!--end::Modal-->
 
@@ -367,39 +391,7 @@
 
 <script src="assets/demo/default/custom/crud/datatables/basic/headers.js" type="text/javascript"></script>
 <script src="assets/js/parsley.min.js"></script>
-<script>
-    $(document).ready(function () {
-        // $("#user_register_form").validate({
-        //     rule: {
-        //         user_name: "required",
-        //         user_email: "required",
-        //         user_number: "required",
-        //         password: "required",
-        //         password_again: {
-        //             equalTo: "#password2"
-        //         }
-        //     },
-        //     messages: {
-        //         user_name: {
-        //             required: "يجب كتابة اسم المستخدم"
-        //         },
-        //         user_email: {
-        //             required: "يجب ادخال البريد الإلكتروني",
-        //             email: "ادخل بريد الكتروني صحيح"
-        //         },
-        //         user_number: {
-        //             required: "يجب ادخال رقم هاتف",
-        //             minlength: jQuery.validator.format("ادخل {0} ارقم على الأقل")
-        //         },
-        //         password_again: {
-        //             equalTo: "غير مستخدم",
-        //             required: "يجب اعادة كتابة كلمة المرور"
-        //         }
-        //     }
-        // });
 
-    });
-</script>
 <!--end::Page Scripts -->
 </body>
 
