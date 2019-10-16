@@ -4,8 +4,10 @@
     <list default="true" id="e29c3462-d37f-4901-95f5-ab9cdeb1542d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/custome.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/custome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inline-logo-wight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers.php" beforeDir="false" afterPath="$PROJECT_DIR$/drivers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top_bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/top_bar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users-details.php" beforeDir="false" afterPath="$PROJECT_DIR$/users-details.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
     </list>
@@ -57,7 +59,15 @@
       <workItem from="1569509413254" duration="3347000" />
       <workItem from="1569660488924" duration="20135000" />
       <workItem from="1569694375074" duration="669000" />
-      <workItem from="1569750822161" duration="14255000" />
+      <workItem from="1569750822161" duration="19999000" />
+      <workItem from="1569829160735" duration="8787000" />
+      <workItem from="1569923468671" duration="4355000" />
+      <workItem from="1570028528190" duration="9438000" />
+      <workItem from="1570623763108" duration="8550000" />
+      <workItem from="1570652297346" duration="2898000" />
+      <workItem from="1570708901682" duration="6286000" />
+      <workItem from="1571050945292" duration="2713000" />
+      <workItem from="1571222384537" duration="6789000" />
     </task>
     <servers />
   </component>

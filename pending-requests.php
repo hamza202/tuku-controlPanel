@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>توكو || المستخدمين</title>
+    <title>توكو || طلبات معلقة</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">المستخدمين</h3>
+                        <h3 class="m-subheader__title ">الطلبات</h3>
                     </div>
                 </div>
             </div>
@@ -123,20 +123,12 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    المستخدمين
+                                    طلبات معلقة
                                 </h3>
                             </div>
                         </div>
-                        <div class="m-portlet__head-tools">
-                            <a href="#" data-toggle="modal" data-target="#m_modal_6"
-                               class="btn btn-success  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
-                                    <span class="m-auto">
-                                        <i class="fas fa-plus-circle"></i>
-                                        <span> مستخدم جديد </span>
-                                    </span>
-                            </a>
-                        </div>
                     </div>
+
                     <div class="m-portlet__body">
                         <div class="table-responsive">
                             <!--begin: Datatable -->
@@ -145,10 +137,12 @@
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>الأسم</th>
-                                    <th>الطلبات</th>
-                                    <th>الحالة</th>
-                                    <th>تفعيل/تعطيل</th>
+                                    <th>اسم صاحب الطلب</th>
+                                    <th>بداية</th>
+                                    <th>نهاية</th>
+                                    <th>سعر الحمولة</th>
+                                    <th>سعر التوصيل</th>
+                                    <th>عمليات</th>
                                     <th>تفاصيل</th>
                                 </tr>
                                 </thead>
@@ -156,18 +150,35 @@
                                 <tr>
                                     <td>1</td>
                                     <td>حمزة ابو عيطة</td>
-                                    <td>15</td>
+                                    <td>سلواد - رام الله</td>
+                                    <td>يطا - الخليل</td>
                                     <td>
-                                        <span class="m-badge m-badge--success m-badge--wide">فعال</span>
+                                        500 ₪
                                     </td>
                                     <td>
-                                        <button type="button" data-toggle="modal" data-target="#m_modal_7"
-                                                class="btn btn-outline-danger m-btn m-btn--icon m-btn--icon-only">
-                                            <i class="fa fa-power-off"></i>
-                                        </button>
+                                        20 ₪
                                     </td>
                                     <td>
-                                        <a href="users-details.php"
+                                     <span class="dropdown user-option">
+                                        <a href="#"
+                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
+                                           data-toggle="dropdown"
+                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left user-option">
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                        class="la la-check"></i> قبول الطلب  </a>
+
+
+                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
+                                                  data-target="#m_modal_3">
+                                                   <i class="la la-power-off"></i> رفض الطلب</a>
+                                        </div>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <a href="pending-requests-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom
                                        m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
@@ -175,41 +186,77 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>احمد محمد</td>
-                                    <td>12</td>
+                                    <td>1</td>
+                                    <td>حمزة ابو عيطة</td>
+                                    <td>سلواد - رام الله</td>
+                                    <td>يطا - الخليل</td>
                                     <td>
-                                        <span class="m-badge m-badge--danger m-badge--wide">معطل</span>
+                                        500 ₪
                                     </td>
                                     <td>
-                                        <button type="button" data-toggle="modal" data-target="#m_modal_5"
-                                                class="btn btn-outline-success m-btn m-btn--icon m-btn--icon-only">
-                                            <i class="fa fa-check"></i>
-                                        </button>
+                                        20 ₪
                                     </td>
                                     <td>
-                                        <a href="users-details.php"
-                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
+                                     <span class="dropdown user-option">
+                                        <a href="#"
+                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
+                                           data-toggle="dropdown"
+                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left user-option">
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                        class="la la-check"></i> قبول الطلب  </a>
+
+
+                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
+                                                  data-target="#m_modal_3">
+                                                   <i class="la la-power-off"></i> رفض الطلب</a>
+                                        </div>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <a href="pending-requests-details.php"
+                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom
+                                       m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>3</td>
-                                    <td>محمد الحارثي</td>
-                                    <td>10</td>
+                                    <td>1</td>
+                                    <td>حمزة ابو عيطة</td>
+                                    <td>سلواد - رام الله</td>
+                                    <td>يطا - الخليل</td>
                                     <td>
-                                        <span class="m-badge m-badge--success m-badge--wide">فعال</span>
+                                        500 ₪
                                     </td>
                                     <td>
-                                        <button type="button" data-toggle="modal" data-target="#m_modal_7"
-                                                class="btn btn-outline-danger m-btn m-btn--icon m-btn--icon-only">
-                                            <i class="fa fa-power-off"></i>
-                                        </button>
+                                        20 ₪
                                     </td>
                                     <td>
-                                        <a href="users-details.php"
-                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom m-btn--pill m-btn--air">
+                                     <span class="dropdown user-option">
+                                        <a href="#"
+                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
+                                           data-toggle="dropdown"
+                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left user-option">
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                        class="la la-check"></i> قبول الطلب  </a>
+
+
+                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
+                                                  data-target="#m_modal_3">
+                                                   <i class="la la-power-off"></i> رفض الطلب</a>
+                                        </div>
+                                    </span>
+                                    </td>
+                                    <td>
+                                        <a href="pending-requests-details.php"
+                                           class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom
+                                       m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
                                         </a>
                                     </td>
@@ -236,126 +283,51 @@
 </div>
 
 <!-- end::Scroll Top -->
-<div class="modal fade" id="m_modal_6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <form action="#" id="user_register_form" data-parsley-validate="" data-parsley-trigger="change">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">تسجيل مستخدم جديد</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row ">
-                        <div class="col-lg-6">
-                            <div class="form-group m-form__group mb-4">
-                                <label>اسم المستخدم:</label>
-                                <input required type="text" placeholder="الإسم" name="user_name"
-                                       class="form-control m-input m-input--square">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="form-group m-form__group mb-4">
-                                <label>المدينة:</label>
-                                <input required type="text" placeholder="المدينة" name="user_name"
-                                       class="form-control m-input m-input--square">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-lg-6">
-                            <div class="form-group m-form__group mb-4">
-                                <label>بريد الكتروني</label>
-                                <input required type="email" name="user_email" placeholder="info@hotmail.com"
-                                       class="form-control m-input m-input--square">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="form-group m-form__group mb-4">
-                                <label>رقم هاتف:</label>
-                                <input required name="user_number" minlength="7" type="number" placeholder="0595779004"
-                                       class="form-control m-input m-input--square">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-lg-6">
-                            <div class="form-group m-form__group mb-4">
-                                <label>كلمة المرور:</label>
-                                <input minlength="6" required id="password" type="password" name="password"
-                                       placeholder="كلمة المرور"
-                                       value="" data-parsley-minlength-message="يجب ادخال 6 احرف على الأقل"
-                                       class="form-control m-input m-input--square">
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="form-group m-form__group mb-4">
-                                <label>تأكيد كلمة المرور:</label>
-                                <input minlength="6" required type="password" id="password_again"
-                                       data-parsley-equalto="#password" name="password_again"
-                                       placeholder="تأكيد كلة المرور"
-                                       value="" data-parsley-minlength-message="يجب ادخال 6 احرف على الأقل"
-                                       class="form-control m-input m-input--square">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                    <button type="submit" class="btn btn-info">تسجيل</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
 
 <!--begin::Modal-->
-<div class="modal fade" id="m_modal_7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
-        <form action="#">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">تعطيل الحساب</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        هل انت متأكد من تعطيل هذا الحساب؟
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                    <button type="submit" class="btn btn-danger">تعطيل</button>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
-
 <div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
         <form action="#">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">تفعيل الحساب</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">قبول الطلب</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <p>
-                        هل انت متأكد من تفعيل هذا الحساب؟
+                        هل انت متأكد من قبول طلب التوصيل؟
                     </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                    <button type="button" class="btn btn-success">تأكيد</button>
+                    <button type="button" class="btn btn-success">تفعيل</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <form action="#">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">رفض الطلب</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        هل انت متأكد من رفض طلب التوصيل؟
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                    <button type="submit" class="btn btn-danger">رفض</button>
                 </div>
             </div>
         </form>
@@ -378,6 +350,7 @@
 <script src="assets/demo/default/custom/crud/datatables/basic/headers.js" type="text/javascript"></script>
 <script src="assets/js/parsley.min.js"></script>
 
+<!--end::Page Scripts -->
 </body>
 
 <!-- end::Body -->

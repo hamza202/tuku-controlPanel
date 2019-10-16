@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>توكو || المستخدمين</title>
+    <title>توكو || الشركات</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">المستخدمين</h3>
+                        <h3 class="m-subheader__title ">الشركات</h3>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                         <div class="m-portlet__head-caption">
                             <div class="m-portlet__head-title">
                                 <h3 class="m-portlet__head-text">
-                                    المستخدمين
+                                    شركات
                                 </h3>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
                                class="btn btn-success  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
                                         <i class="fas fa-plus-circle"></i>
-                                        <span> مستخدم جديد </span>
+                                        <span> شركة جديدة </span>
                                     </span>
                             </a>
                         </div>
@@ -147,6 +147,7 @@
                                     <th>ID</th>
                                     <th>الأسم</th>
                                     <th>الطلبات</th>
+                                    <th>الرصيد المطلوب</th>
                                     <th>الحالة</th>
                                     <th>تفعيل/تعطيل</th>
                                     <th>تفاصيل</th>
@@ -155,8 +156,9 @@
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>حمزة ابو عيطة</td>
+                                    <td>شركة ارامكو</td>
                                     <td>15</td>
+                                    <td>₪ 50</td>
                                     <td>
                                         <span class="m-badge m-badge--success m-badge--wide">فعال</span>
                                     </td>
@@ -167,7 +169,7 @@
                                         </button>
                                     </td>
                                     <td>
-                                        <a href="users-details.php"
+                                        <a href="comp-details.php"
                                            class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom
                                        m-btn--pill m-btn--air">
                                             <i class="far fa-eye"></i>
@@ -176,8 +178,9 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>احمد محمد</td>
+                                    <td>شركة ارامكو</td>
                                     <td>12</td>
+                                    <td>₪ 100</td>
                                     <td>
                                         <span class="m-badge m-badge--danger m-badge--wide">معطل</span>
                                     </td>
@@ -196,8 +199,9 @@
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>محمد الحارثي</td>
+                                    <td>شركة ايكيا</td>
                                     <td>10</td>
+                                    <td>₪ 150</td>
                                     <td>
                                         <span class="m-badge m-badge--success m-badge--wide">فعال</span>
                                     </td>
@@ -242,7 +246,7 @@
         <div class="modal-content">
             <form action="#" id="user_register_form" data-parsley-validate="" data-parsley-trigger="change">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">تسجيل مستخدم جديد</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">تسجيل شركة جديد</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -251,7 +255,7 @@
                     <div class="row ">
                         <div class="col-lg-6">
                             <div class="form-group m-form__group mb-4">
-                                <label>اسم المستخدم:</label>
+                                <label>اسم الشركة:</label>
                                 <input required type="text" placeholder="الإسم" name="user_name"
                                        class="form-control m-input m-input--square">
                             </div>

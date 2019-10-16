@@ -28,6 +28,13 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true">
+                            <a href="comp.php"
+                               class="m-menu__link "><i
+                                        class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
+                                        class="m-menu__link-text">شركات</span>
+                            </a>
+                        </li>
+                        <li class="m-menu__item " aria-haspopup="true">
                             <a href="drivers.php"
                                class="m-menu__link "><i
                                         class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
@@ -51,24 +58,24 @@
                 <div class="m-menu__submenu "><span class="m-menu__arrow"></span>
                     <ul class="m-menu__subnav">
                         <li class="m-menu__item " aria-haspopup="true">
-                            <a href="#!"
+                            <a href="pending-requests.php"
                                class="m-menu__link "><i
                                         class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
                                         class="m-menu__link-text">طلبات معلقة</span>
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true">
-                            <a href="#!"
+                            <a href="existing-requests.php"
                                class="m-menu__link "><i
                                         class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
                                         class="m-menu__link-text">طلبات حالية</span>
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true">
-                            <a href="#!"
+                            <a href="completed-requests.php"
                                class="m-menu__link "><i
                                         class="m-menu__link-bullet m-menu__link-bullet--dot"><span></span></i><span
-                                        class="m-menu__link-text">طلبات منتهية</span>
+                                        class="m-menu__link-text">طلبات منجزة</span>
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true">

@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>توكو || تفاصبل المستخدمين</title>
+    <title>توكو || تفاصيل الطلبات المعلقة</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -111,7 +111,7 @@
             <div class="m-subheader ">
                 <div class="d-flex align-items-center">
                     <div class="mr-auto">
-                        <h3 class="m-subheader__title ">تفاصيل المستخدمين</h3>
+                        <h3 class="m-subheader__title ">تفاصيل الطلبات المعلقة</h3>
                     </div>
                 </div>
             </div>
@@ -125,19 +125,19 @@
 
                                 <div class="profile-btn-option">
                                     <a href="#"
-                                       data-toggle="modal" data-target="#m_modal_7"
-                                       class="btn btn-danger  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                       data-toggle="modal" data-target="#m_modal_5"
+                                       class="btn btn-success  m-btn m-btn--custom m-btn--icon d-block text-center mb-3">
                                     <span class="m-auto">
-                                        <i class="fas fa-power-off"></i>
-                                        <span> تعطيل </span>
+                                        <i class="fas fa-check"></i>
+                                        <span> قبول الطلب </span>
                                     </span>
                                     </a>
                                     <a href="#"
-                                       data-toggle="modal" data-target="#m_modal_5"
-                                       class="btn btn-success  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                       data-toggle="modal" data-target="#m_modal_3"
+                                       class="btn btn-danger  m-btn m-btn--custom m-btn--icon d-block text-center mb-3">
                                     <span class="m-auto">
-                                       <i class="fas fa-check"></i>
-                                        <span> تفعيل </span>
+                                       <i class="fas fa-power-off"></i>
+                                        <span> رفض الطلب </span>
                                     </span>
                                     </a>
                                 </div>
@@ -155,7 +155,7 @@
                                             <div class="row ">
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>الإسم:</label>
+                                                        <label>اسم صاحب الطلب:</label>
                                                         <input type="text" disabled
                                                                class="form-control m-input m-input--square"
                                                                value="حمزة أبو عيطة">
@@ -163,49 +163,97 @@
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>المدينة:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="رام الله">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>رقم هاتف:</label>
+                                                        <label>رقم هاتف صاحب الطلب:</label>
                                                         <input type="text" disabled
                                                                class="form-control m-input m-input--square"
                                                                value="0595779004">
                                                     </div>
                                                 </div>
-
+                                            </div>
+                                            <div class="row ">
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>بريد الكتروني:</label>
+                                                        <label>منطقة البداية:</label>
                                                         <input type="text" disabled
                                                                class="form-control m-input m-input--square"
-                                                               value="hamza@hotmail.com">
+                                                               value="سلواد - رام الله">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>اجمالي عدد الطلبات:</label>
+                                                        <label>منطقة النهاية:</label>
                                                         <input type="text" disabled
-                                                               class="form-control m-input m-input--square" value="15">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>حالة الحساب:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square" value="فعال">
+                                                               class="form-control m-input m-input--square"
+                                                               value="يطا - الخليل	">
                                                     </div>
                                                 </div>
                                             </div>
-
+                                            <div class="row ">
+                                                <div class="col-lg-6">
+                                                    <div class="form-group m-form__group mb-4">
+                                                        <label>سعر الحمولة:</label>
+                                                        <input type="text" disabled
+                                                               class="form-control m-input m-input--square"
+                                                               value="500 ₪">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group m-form__group mb-4">
+                                                        <label>سعر التوصيل:</label>
+                                                        <input type="text" disabled
+                                                               class="form-control m-input m-input--square"
+                                                               value="20 ₪">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row ">
+                                                <div class="col-lg-6">
+                                                    <div class="form-group m-form__group mb-4">
+                                                        <label>عدد الطرود:</label>
+                                                        <input type="text" disabled
+                                                               class="form-control m-input m-input--square"
+                                                               value="5">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group m-form__group mb-4">
+                                                        <label>محتوى الحمولة:</label>
+                                                        <input type="text" disabled
+                                                               class="form-control m-input m-input--square"
+                                                               value="لابتوبات">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 px-5 mt-4">
+                                                    <ul class="list-inline justify-content-center text-center marker-icon">
+                                                        <li class="list-inline-item mr-0">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item mr-0">
+                                                                    <img src="assets/images/0.png" alt="">
+                                                                </li>
+                                                                <li class="list-inline-item">
+                                                                    البداية
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="list-inline-item ml-4">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">
+                                                                    <img src="assets/images/1.png" alt="">
+                                                                </li>
+                                                                <li class="list-inline-item">
+                                                                    النهاية
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                    <div id="map" style="height: 400px; border-radius: 25px" class="shadow-lg "></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </form>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -228,51 +276,51 @@
 </div>
 
 <!-- end::Scroll Top -->
-<!--begin::Modal-->
-<div class="modal fade" id="m_modal_7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<!-- Modal -->
+
+<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
      aria-hidden="true">
     <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
         <form action="#">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">تعطيل الحساب</h5>
+                    <h5 class="modal-title" id="exampleModalLabel2">رفض الطلب</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <p>
-                        هل انت متأكد من تعطيل هذا الحساب؟
+                        هل انت متأكد من رفض هذا الطلب؟
                     </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                    <button type="submit" class="btn btn-danger">تعطيل</button>
+                    <button type="submit" class="btn btn-danger">رفض</button>
                 </div>
             </div>
         </form>
     </div>
 </div>
-
 <div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
         <form action="#">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">تفعيل الحساب</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">قبول الطلب</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
                     <p>
-                        هل انت متأكد من تفعيل هذا الحساب؟
+                        هل انت متأكد من قبول هذا الطلب؟
                     </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                    <button type="button" class="btn btn-success">تأكيد</button>
+                    <button type="submit" class="btn btn-success">قبول</button>
                 </div>
             </div>
         </form>
@@ -283,6 +331,33 @@
 <!--begin::Global Theme Bundle -->
 <script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 <script src="assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
+<script>
+
+    function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 6,
+            center: {lat: 26.052465, lng: 44.486588}
+        });
+        //ماركرات واستراحات
+        var beaches = [
+            ['0', 24.627791, 46.716011],
+            ['1', 27.287320, 41.378206]
+        ];
+        for (var i = 0; i < beaches.length; i++) {
+            var beach = beaches[i];
+            var marker = new google.maps.Marker({
+                position: {lat: beach[1], lng: beach[2]},
+                map: map,
+                icon: './assets/images/'+ beach[0]+'.png',
+                // shape: shape,
+                // zIndex: beach[3]
+            });
+        }
+    }
+
+</script>
+<script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwQWgqTGypi82vAyP97l2O5Zi_RBiVA5E&amp;callback=initMap">
+</script>
 <!--end::Global Theme Bundle -->
 
 <!--end::Page Scripts -->
