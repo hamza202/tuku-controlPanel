@@ -504,3 +504,24 @@ select.year-select:hover{
     opacity: 0;
     filter: alpha(opacity=0);
 }
+.fw-600{
+    font-weight: 600;
+}
+.from-to-container{
+    padding: 15px 15px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.from-container{
+    padding: 10px;
+    padding-bottom: 0;
+    background: #f9d9e0;
+    border-radius: 5px;
+}
+.to-container{
+    padding: 10px;
+    padding-bottom: 0;
+    background: #d9f9df;
+    border-radius: 5px;
+}
