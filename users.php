@@ -259,8 +259,12 @@
                         <div class="col-lg-6">
                             <div class="form-group m-form__group mb-4">
                                 <label>المدينة:</label>
-                                <input required type="text" placeholder="المدينة" name="user_name"
-                                       class="form-control m-input m-input--square">
+                                <select required class="form-control m-input" id="exampleSelect1">
+                                    <option value="">1</option>
+                                    <option value="1">2</option>
+                                    <option value="2">3</option>
+                                    <option value="3">4</option>
+                                </select>
                             </div>
                         </div>
                     </div>
