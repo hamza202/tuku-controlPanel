@@ -30,11 +30,6 @@
 
     <link href="assets/demo/default/base/style.bundle.rtl.css" rel="stylesheet" type="text/css"/>
 
-    <!--end::Global Theme Styles -->
-
-    <!--begin::Page Vendors Styles -->
-
-    <link href="assets/vendors/custom/datatables/datatables.bundle.rtl.css" rel="stylesheet" type="text/css"/>
     <!--end::Page Vendors Styles -->
     <link rel="shortcut icon" href="assets/images/icon.png"/>
     <link rel="stylesheet" href="assets/custome.css">
@@ -129,41 +124,63 @@
                         </div>
                     </div>
                     <div class="m-portlet__body">
-                        <div class="table-responsive">
-                            <!--begin: Datatable -->
-                            <table class="table table-striped- table-bordered table-hover table-checkable"
-                                   id="m_table_1">
-                                <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>اسم الثابت</th>
-                                    <th>تعديل</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>facebook</td>
-                                    <td>
-                                        <button type="button" data-toggle="modal" data-target="#m_modal_1"
-                                                class="btn btn-outline-primary m-btn m-btn--icon m-btn--icon-only">
-                                            <i class="fa fa-edit"></i>
-                                        </button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>logo</td>
-                                    <td>
-                                        <button type="button" data-toggle="modal" data-target="#m_modal_2"
-                                                class="btn btn-outline-primary m-btn m-btn--icon m-btn--icon-only">
-                                            <i class="fa fa-edit"></i>
-                                        </button>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-12 mb-3">
+                                    <div class="edit-profile-photo">
+                                        <img class="profile-pic pic1"
+                                             src="assets/app/media/img/users/user4.jpg"
+                                             alt="">
+                                        <div class="change-photo-btn">
+                                            <div class="photoUpload">
+                                                <span> تغير اللوقو<i class="fa fa-upload ml-1"></i></span>
+                                                <input type="file" class="upload file-upload up1"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group m-form__group">
+                                        <label for="facebook">تعديل رابط facebook</label>
+                                        <input id="facebook" type="text" class="form-control m-input"
+                                               value="" placeholder="https://www.facebook.com/PageName">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group m-form__group">
+                                        <label for="facebook">تعديل رابط instagram</label>
+                                        <input id="facebook" type="text" class="form-control m-input"
+                                               value="" placeholder="https://www.instagram.com/shadidsoft">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group m-form__group">
+                                        <label for="description">الوصف</label>
+                                        <textarea id="description" class="form-control no-resize" placeholder="اكتب الوصف"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group m-form__group">
+                                        <label for="description">الوصف</label>
+                                        <textarea id="description" class="form-control no-resize" placeholder="اكتب الوصف"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <p class="font-weight-bold">تغير الموقع على الخريطة:</p>
+                                    <div id="map_1"></div>
+                                    <input type="hidden" id="lat">
+                                    <input type="hidden" id="lng">
+
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <button type="submit" class="btn btn-success  m-btn">
+                                        حفظ
+                                    </button>
+                                </div>
+                            </div>
+
+
+                        </form>
                     </div>
                 </div>
                 <!-- END EXAMPLE TABLE PORTLET-->
@@ -184,72 +201,6 @@
 
 <!-- end::Scroll Top -->
 
-<!--begin::Modal-->
-<div class="modal fade" id="m_modal_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <form action="#">
-
-        <div class="modal-dialog  modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">تعديل رابط facebook</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group m-form__group">
-                        <label for="exampleInputEmail1">رابط الصفحة</label>
-                        <input type="text" class="form-control m-input"
-                               value="" placeholder="Facebook">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                    <button type="submit" class="btn btn-primary">تعديل</button>
-                </div>
-            </div>
-        </div>
-    </form>
-</div>
-<div class="modal fade" id="m_modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <form action="#">
-
-        <div class="modal-dialog  modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">تعديل اللوقو</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="edit-profile-photo">
-                        <img class="profile-pic pic1"
-                             src="assets/app/media/img/users/user4.jpg"
-                             alt="">
-                        <div class="change-photo-btn">
-                            <div class="photoUpload">
-                                <span> اختر صورة<i class="fa fa-upload ml-1"></i></span>
-                                <input type="file" class="upload file-upload up1"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
-                    <button type="submit" class="btn btn-primary">تعديل</button>
-                </div>
-            </div>
-        </div>
-    </form>
-</div>
-
-
-
-<!--end::Modal-->
-
 
 <!--begin::Global Theme Bundle -->
 <script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
@@ -259,9 +210,7 @@
 
 
 <!--begin::Page Scripts -->
-<script src="assets/vendors/custom/datatables/datatables.bundle.js" type="text/javascript"></script>
 
-<script src="assets/demo/default/custom/crud/datatables/basic/headers.js" type="text/javascript"></script>
 <script src="assets/js/parsley.min.js"></script>
 <script>
     $(document).ready(function () {
@@ -285,6 +234,36 @@
 
     });
 </script>
+<script>
+    function myMap() {
+        var mapProp = {
+            center: new google.maps.LatLng(31.511153667989184, 34.93505459124765),
+            zoom: 7,
+        };
+        var map = new google.maps.Map(document.getElementById("map_1"), mapProp);
+
+        google.maps.event.addListener(map, 'click', function (event) {
+            var lang = event.latLng.lng();
+            var lat = event.latLng.lat();
+            $("#lng").val(lang);
+            document.getElementById("lat").value = lat;
+
+        });
+        var marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(31.511153667989184, 34.93505459124765),
+            icon: 'assets/images/marker1.png'
+        });
+        google.maps.event.addListener(map, 'click', function (event) {
+            marker.setPosition(event.latLng);
+            console.log(document.getElementById("lng").value);
+            console.log(document.getElementById("lat").value);
+        });
+    }
+
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwQWgqTGypi82vAyP97l2O5Zi_RBiVA5E&amp;callback=myMap "></script>
 </body>
 
 <!-- end::Body -->
