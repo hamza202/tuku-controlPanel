@@ -115,8 +115,13 @@
             </li>
             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
                 <a href="contact.php" class="m-menu__link m-menu__toggle">
-                    <i class="m-menu__link-icon flaticon-chat-1">
-                    </i><span class="m-menu__link-text">رسائل الموقع</span>
+                    <i class="m-menu__link-icon flaticon-chat-1"></i>
+                        <span class="m-menu__link-title">
+                            <span class="m-menu__link-wrap">
+                    <span class="m-menu__link-text">رسائل الموقع</span>
+                    <span class="m-menu__link-badge"><span class="m-badge m-badge--danger">5</span></span>
+                    </span>
+                    </span>
                 </a>
             </li>
             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">

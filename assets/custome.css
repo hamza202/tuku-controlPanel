@@ -544,4 +544,6 @@ input[type="file"].parsley-error + ul.parsley-errors-list{
     position: absolute;
     bottom: -36px;
 }
-
+.no-nowrap th{
+    white-space: nowrap;
+}

@@ -130,34 +130,114 @@
                     </div>
 
                     <div class="m-portlet__body">
+                       <div class="">
+                           <h6 class="fw-600">فرز حسب:</h6>
+                           <div class="row">
+                               <div class="col-lg-3 col-md-6">
+                                   <div class="form-group m-form__group">
+                                       <label for="example2">اسم المستلم:</label>
+                                       <input type="text" class="form-control m-input filter-column1" id="example2"  placeholder="اسم المستلم">
+                                   </div>
+                               </div>
+                               <div class="col-lg-3 col-md-6">
+                                   <div class="form-group m-form__group">
+                                       <label for="exampleSelect2">نوع الطرد:</label>
+                                       <select class="form-control m-input filter-column2" id="exampleSelect2">
+                                           <option value="">عرض الكل</option>
+                                           <option value="صندوق هدايا">صندوق هدايا</option>
+                                           <option value="باقة ورد">باقة ورد	</option>
+                                           <option value="اخرى">اخرى</option>
+                                       </select>
+                                   </div>
+                               </div>
+                               <div class="col-lg-3 col-md-6">
+                                   <div class="form-group m-form__group">
+                                       <label for="exampleSelect2">مكان التسليم محافظة:</label>
+                                       <select class="form-control m-input" id="exampleSelect2">
+                                           <option value="">عرض الكل</option>
+                                           <option value="صندوق هدايا">محافظة</option>
+                                           <option value="باقة ورد">محافظة</option>
+                                           <option value="اخرى">محافظة</option>
+                                       </select>
+                                   </div>
+                               </div>
+                               <div class="col-lg-3 col-md-6">
+                                   <div class="form-group m-form__group">
+                                       <label for="exampleSelect2">مكان التسليم مدينة:</label>
+                                       <select class="form-control m-input" id="exampleSelect2">
+                                           <option value="">عرض الكل</option>
+                                           <option value="صندوق هدايا">مدينة</option>
+                                           <option value="باقة ورد">مدينة</option>
+                                           <option value="اخرى">مدينة</option>
+                                       </select>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
                         <div class="table-responsive">
                             <!--begin: Datatable -->
-                            <table class="table table-striped- table-bordered table-hover table-checkable"
+                            <table class="table table-striped- table-bordered table-hover table-checkable no-nowrap"
                                    id="m_table_1">
                                 <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th> صاحب الطلب</th>
-                                    <th>السائق</th>
-                                    <th>بداية</th>
-                                    <th>نهاية</th>
-                                    <th>سعر الحمولة</th>
+                                    <th>رقم الطلب</th>
+                                    <th>نوع المستخدم</th>
+                                    <th> اسم صاحب الطلب</th>
+                                    <th>مكان الإستلام</th>
+                                    <th>عنوان الإستلام</th>
+                                    <th>رقم المستلم</th>
+                                    <th>مكان التسليم</th>
+                                    <th>عنوان التسليم</th>
+                                    <th>نوع الطرد</th>
+                                    <th>عدد الطرود</th>
+                                    <th>الوزن</th>
+                                    <th>تفاصيل اضافية</th>
                                     <th>سعر التوصيل</th>
+                                    <th>سعر الطرد</th>
+                                    <th>السعر الإجمالي</th>
+                                    <th>وقت الإنشاء</th>
+                                    <th>عمليات</th>
                                     <th>تفاصيل</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>حمزة ابو عيطة</td>
-                                    <td>محمد عجور</td>
-                                    <td>سلواد - رام الله</td>
-                                    <td>يطا - الخليل</td>
+                                    <td>رقم الطلب</td>
+                                    <td>شركة</td>
+                                    <td> حمزة خميس</td>
+                                    <td>مكان الإستلام</td>
+                                    <td>عنوان الإستلام</td>
+                                    <td>رقم المستلم</td>
+                                    <td>مكان التسليم</td>
+                                    <td>عنوان التسليم</td>
+                                    <td>صندوق هدايا</td>
+                                    <td>عدد الطرود</td>
+                                    <td>الوزن</td>
+                                    <td>تفاصيل اضافية</td>
+                                    <td>سعر التوصيل</td>
+                                    <td>سعر الطرد</td>
+                                    <td>السعر الإجمالي</td>
+                                    <td>وقت الإنشاء</td>
                                     <td>
-                                        500 ₪
-                                    </td>
-                                    <td>
-                                        20 ₪
+                                     <span class="dropdown user-option">
+                                        <a href="#"
+                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
+                                           data-toggle="dropdown"
+                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left user-option">
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                    class="la la-check"></i> قبول الطلب  </a>
+
+
+                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
+                                                  data-target="#m_modal_3">
+                                                   <i class="la la-power-off"></i> رفض الطلب</a>
+                                        </div>
+                                    </span>
                                     </td>
                                     <td>
                                         <a href="existing-requests-details.php"
@@ -168,16 +248,41 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>حمزة ابو عيطة</td>
-                                    <td>محمد عجور</td>
-                                    <td>سلواد - رام الله</td>
-                                    <td>يطا - الخليل</td>
+                                    <td>2</td>
+                                    <td>رقم الطلب</td>
+                                    <td>فرد</td>
+                                    <td> فوزي نوفل</td>
+                                    <td>مكان الإستلام</td>
+                                    <td>عنوان الإستلام</td>
+                                    <td>رقم المستلم</td>
+                                    <td>مكان التسليم</td>
+                                    <td>عنوان التسليم</td>
+                                    <td>باقة ورد</td>
+                                    <td>عدد الطرود</td>
+                                    <td>الوزن</td>
+                                    <td>تفاصيل اضافية</td>
+                                    <td>سعر التوصيل</td>
+                                    <td>سعر الطرد</td>
+                                    <td>السعر الإجمالي</td>
+                                    <td>وقت الإنشاء</td>
                                     <td>
-                                        500 ₪
-                                    </td>
-                                    <td>
-                                        20 ₪
+                                     <span class="dropdown user-option">
+                                        <a href="#"
+                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
+                                           data-toggle="dropdown"
+                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left user-option">
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                    class="la la-check"></i> قبول الطلب  </a>
+
+
+                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
+                                                  data-target="#m_modal_3">
+                                                   <i class="la la-power-off"></i> رفض الطلب</a>
+                                        </div>
+                                    </span>
                                     </td>
                                     <td>
                                         <a href="existing-requests-details.php"
@@ -188,16 +293,41 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>1</td>
-                                    <td>حمزة ابو عيطة</td>
-                                    <td>محمد عجور</td>
-                                    <td>سلواد - رام الله</td>
-                                    <td>يطا - الخليل</td>
+                                    <td>2</td>
+                                    <td>رقم الطلب</td>
+                                    <td>فرد</td>
+                                    <td> وسيم برزق</td>
+                                    <td>مكان الإستلام</td>
+                                    <td>عنوان الإستلام</td>
+                                    <td>رقم المستلم</td>
+                                    <td>مكان التسليم</td>
+                                    <td>عنوان التسليم</td>
+                                    <td>اخرى</td>
+                                    <td>عدد الطرود</td>
+                                    <td>الوزن</td>
+                                    <td>تفاصيل اضافية</td>
+                                    <td>سعر التوصيل</td>
+                                    <td>سعر الطرد</td>
+                                    <td>السعر الإجمالي</td>
+                                    <td>وقت الإنشاء</td>
                                     <td>
-                                        500 ₪
-                                    </td>
-                                    <td>
-                                        20 ₪
+                                     <span class="dropdown user-option">
+                                        <a href="#"
+                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
+                                           data-toggle="dropdown"
+                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left user-option">
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                    class="la la-check"></i> قبول الطلب  </a>
+
+
+                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
+                                                  data-target="#m_modal_3">
+                                                   <i class="la la-power-off"></i> رفض الطلب</a>
+                                        </div>
+                                    </span>
                                     </td>
                                     <td>
                                         <a href="existing-requests-details.php"
@@ -270,6 +400,9 @@
                     <p>
                         هل انت متأكد من رفض طلب التوصيل؟
                     </p>
+                    <div class="form-group m-form__group">
+                        <input type="text" class="form-control m-input" id="exampl" placeholder="سبب الرفض">
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
@@ -292,8 +425,31 @@
 
 <!--begin::Page Scripts -->
 <script src="assets/vendors/custom/datatables/datatables.bundle.js" type="text/javascript"></script>
+<script>
+    var DatatablesBasicHeaders = {
+        init: function () {
+            var table = $("#m_table_1");
+            table.DataTable({
+                responsive:true,
+                initComplete: function() {
 
-<script src="assets/demo/default/custom/crud/datatables/basic/headers.js" type="text/javascript"></script>
+                }
+            });
+
+            $('.filter-column1').on('keyup change', function() {
+                table.dataTable().fnFilter(this.value,3);
+            });
+                $('.filter-column2').on('keyup change', function() {
+                    table.dataTable().fnFilter(this.value,9);
+                });
+
+        }
+    };
+    jQuery(document).ready(function () {
+        DatatablesBasicHeaders.init()
+    });
+
+</script>
 <script src="assets/js/parsley.min.js"></script>
 
 <!--end::Page Scripts -->

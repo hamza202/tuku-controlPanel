@@ -133,6 +133,14 @@
                                     </span>
                                     </a>
                                     <a href="#"
+                                       data-toggle="modal" data-target="#m_modal_1"
+                                       class="btn btn-primary m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
+                                    <span class="m-auto">
+                                        <i class="fas fa-edit"></i>
+                                        <span> تعديل </span>
+                                    </span>
+                                    </a>
+                                    <a href="#"
                                        data-toggle="modal" data-target="#m_modal_5"
                                        class="btn btn-success  m-btn m-btn--custom m-btn--icon d-block text-center mt-3">
                                     <span class="m-auto">
@@ -163,7 +171,15 @@
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>المدينة:</label>
+                                                        <label>رقم هاتف:</label>
+                                                        <input type="text" disabled
+                                                               class="form-control m-input m-input--square"
+                                                               value="0595779004">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group m-form__group mb-4">
+                                                        <label>المدينة/القرية:</label>
                                                         <input type="text" disabled
                                                                class="form-control m-input m-input--square"
                                                                value="رام الله">
@@ -171,13 +187,12 @@
                                                 </div>
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
-                                                        <label>رقم هاتف:</label>
+                                                        <label>المحافظة:</label>
                                                         <input type="text" disabled
                                                                class="form-control m-input m-input--square"
-                                                               value="0595779004">
+                                                               value="رام الله">
                                                     </div>
                                                 </div>
-
                                                 <div class="col-lg-6">
                                                     <div class="form-group m-form__group mb-4">
                                                         <label>بريد الكتروني:</label>
@@ -191,6 +206,13 @@
                                                         <label>اجمالي عدد الطلبات:</label>
                                                         <input type="text" disabled
                                                                class="form-control m-input m-input--square" value="15">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="form-group m-form__group mb-4">
+                                                        <label>نوع الحساب:</label>
+                                                        <input type="text" disabled
+                                                               class="form-control m-input m-input--square" value="فرد">
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6">
@@ -277,6 +299,73 @@
             </div>
         </form>
     </div>
+</div>
+
+<!--begin::Modal-->
+<div class="modal fade" id="m_modal_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <form action="#">
+
+        <div class="modal-dialog modal-lg  modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">تعديل بيانات المستخدم</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">الاسم</label>
+                                <input type="text" class="form-control m-input"
+                                       value="حمزة" placeholder="الاسم">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">رقم الجوال</label>
+                                <input type="text" class="form-control m-input"
+                                       value="0595779004" placeholder="رقم الجوال">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">بريد الكتروني:</label>
+                                <input type="text" class="form-control m-input"
+                                       value="hamza@hotmail.com" placeholder="بريد الكتروني">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="select1">النوع</label>
+                                <select class="form-control m-input" id="select1">
+                                    <option>1</option>
+                                    <option selected>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">رسوم التوصيل</label>
+                                <input type="text" class="form-control m-input"
+                                       value="10" placeholder="رسوم التوصيل">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                    <button type="submit" class="btn btn-primary">تعديل</button>
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
 
 <!--end::Modal-->
