@@ -265,6 +265,113 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12">
+                        <div class="m-portlet">
+                            <div class="m-portlet__head">
+                                <div class="m-portlet__head-caption">
+                                    <div class="m-portlet__head-title">
+												<span class="m-portlet__head-icon">
+													<i class="flaticon-graphic-2"></i>
+												</span>
+                                        <h3 class="m-portlet__head-text">
+                                            احصائيات طلبات السائق
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m-portlet__body">
+                                <div class="row m-row--no-padding m-row--col-separator-xl">
+                                    <div class="col-md-12 col-lg-12 col-xl-4">
+
+                                        <!--begin:: Widgets/Stats2-1 -->
+                                        <div class="m-widget1">
+                                            <div class="m-widget1__item">
+                                                <a href="#" class="d-block">
+                                                    <div class="row m-row--no-padding align-items-center">
+                                                        <div class="col">
+                                                            <h3 class="m-widget1__title">المقبوله</h3>
+                                                        </div>
+                                                        <div class="col-auto m--align-right">
+                                                            <span class="m-widget1__number m--font-success">110</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="m-widget1__item">
+                                                <a href="#" class="d-block">
+                                                    <div class="row m-row--no-padding align-items-center">
+                                                        <div class="col">
+                                                            <h3 class="m-widget1__title">تم استلمها من المرسل </h3>
+                                                        </div>
+                                                        <div class="col-auto m--align-right">
+                                                            <span class="m-widget1__number m--font-info">90</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <!--end:: Widgets/Stats2-1 -->
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-xl-4">
+
+                                        <!--begin:: Widgets/Stats2-2 -->
+                                        <div class="m-widget1">
+                                            <div class="m-widget1__item">
+                                                <a href="#" class="d-block">
+                                                    <div class="row m-row--no-padding align-items-center">
+                                                        <div class="col">
+                                                            <h3 class="m-widget1__title">سلمها للمستلم</h3>
+                                                        </div>
+                                                        <div class="col-auto m--align-right">
+                                                            <span class="m-widget1__number m--font-brand">20</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                        <!--begin:: Widgets/Stats2-2 -->
+                                    </div>
+                                    <div class="col-md-12 col-lg-12 col-xl-4">
+
+                                        <!--begin:: Widgets/Stats2-3 -->
+                                        <div class="m-widget1">
+                                            <div class="m-widget1__item">
+                                                <a href="#" class="d-block">
+                                                    <div class="row m-row--no-padding align-items-center">
+                                                        <div class="col">
+                                                            <h3 class="m-widget1__title">تم استلام تحصيلها من
+                                                                السائق </h3>
+                                                        </div>
+                                                        <div class="col-auto m--align-right">
+                                                            <span class="m-widget1__number m--font-warning">50</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="m-widget1__item">
+                                                <a href="#" class="d-block">
+                                                    <div class="row m-row--no-padding align-items-center">
+                                                        <div class="col">
+                                                            <h3 class="m-widget1__title">لم يتم استلام تحصيلاتها من
+                                                                السائق</h3>
+                                                        </div>
+                                                        <div class="col-auto m--align-right">
+                                                            <span class="m-widget1__number m--font-danger">10</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <!--begin:: Widgets/Stats2-3 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

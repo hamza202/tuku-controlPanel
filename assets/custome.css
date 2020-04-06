@@ -547,3 +547,60 @@ input[type="file"].parsley-error + ul.parsley-errors-list{
 .no-nowrap th{
     white-space: nowrap;
 }
+.invoice-footer{
+    display: none;
+}
+@media print {
+    .myDivToPrint {
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 15px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .invoice-footer{
+        display: flex;
+    }
+    .header, footer {
+        display: none;
+    }
+    .btn, .print-d-none ,#m_header{
+        display: none;
+    }
+}
+.invoice-footer-logo{
+    width: 90px;
+    height: auto;
+}
+.invoice-footer-icon li{
+    padding-right: 10px;
+    position: relative;
+}
+.invoice-footer-icon li p{
+    margin-right: 5px;
+    color: #0f0f11;
+    display: inline-block;
+}
+.m-widget1 .m-widget1__item .m-widget1__title{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.m-widget1 .m-widget1__item a{
+    text-decoration: none;
+}
+.m-widget1 .m-widget1__item a h3{
+    transition: all ease-in-out 0.3s;
+}
+.m-widget1 .m-widget1__item a:hover h3{
+    color: #0a8cf0;
+}
+@media (max-width: 768px) {
+    .my-d-button button{
+        margin-right: auto !important;
+    }
+}

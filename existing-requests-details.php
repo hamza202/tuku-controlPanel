@@ -119,114 +119,178 @@
             <!-- END: Subheader -->
             <div class="m-content">
                 <div class="row">
-                    <div class="col-xl-12">
+                    <div class="col-xl-3 col-lg-4">
+                        <div class="m-portlet m-portlet--full-height  ">
+                            <div class="m-portlet__body">
+
+                                <div class="profile-btn-option">
+                                    <a href="#" data-toggle="modal" data-target="#m_modal_5" class="btn btn-success  m-btn m-btn--custom m-btn--icon d-block text-center mb-3">
+                                    <span class="m-auto">
+                                        <i class="fas fa-check"></i>
+                                        <span> قبول الطلب </span>
+                                    </span>
+                                    </a>
+                                    <a href="#" data-toggle="modal" data-target="#m_modal_3" class="btn btn-danger  m-btn m-btn--custom m-btn--icon d-block text-center mb-3">
+                                    <span class="m-auto">
+                                       <i class="fas fa-power-off"></i>
+                                        <span> رفض الطلب </span>
+                                    </span>
+                                    </a>
+                                    <a href="#" data-toggle="modal" data-target="#m_modal_1" class="btn btn-primary m-btn m-btn--custom m-btn--icon d-block text-center mb-3">
+                                    <span class="m-auto">
+                                        <i class="fas fa-edit"></i>
+                                        <span> تعديل </span>
+                                    </span>
+                                    </a>
+                                    <a href="#" data-toggle="modal" data-target="#m_modal_2" class="btn btn-warning m-btn m-btn--custom m-btn--icon d-block text-center mb-3">
+                                    <span class="m-auto">
+                                        <i class="fas fa-coins"></i>
+                                        <span> رسوم اضافية </span>
+                                    </span>
+                                    </a>
+                                    <button  class="btn btn-info  m-btn m-btn--custom m-btn--icon d-block w-100 text-center mb-3" onclick="window.print();">
+                                    <span class="m-auto">
+                                       <i class="fas fa-print"></i>
+                                        <span> طباعة </span>
+                                    </span>
+                                    </button>
+                                </div>
+
+                                <div class="m-portlet__body-separator"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-8">
                         <div class="m-portlet m-portlet--full-height m-portlet--tabs  ">
                             <div class="tab-content">
                                 <div class="tab-pane active" id="m_user_profile_tab_1">
                                     <form class="m-form m-form--fit m-form--label-align-right">
                                         <div class="m-portlet__body">
-                                            <div class="row ">
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>اسم صاحب الطلب:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="حمزة أبو عيطة">
+                                            <div class="myDivToPrint">
+                                                <div class="row ">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>اسم صاحب الطلب:</label>
+                                                            <input type="text" disabled
+                                                                   class="form-control m-input m-input--square"
+                                                                   value="حمزة أبو عيطة">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>رقم هاتف صاحب الطلب:</label>
+                                                            <input type="text" disabled
+                                                                   class="form-control m-input m-input--square"
+                                                                   value="0595779004">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>رقم هاتف صاحب الطلب:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="0595779004">
+                                                <div class="row ">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>اسم السائق:</label>
+                                                            <input type="text" disabled
+                                                                   class="form-control m-input m-input--square"
+                                                                   value="حمزة أبو عيطة">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>رقم هاتف السائق:</label>
+                                                            <input type="text" disabled
+                                                                   class="form-control m-input m-input--square"
+                                                                   value="0595779004">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="row ">
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>اسم السائق:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="حمزة أبو عيطة">
+                                                <div class="row ">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>منطقة البداية:</label>
+                                                            <input type="text" disabled
+                                                                   class="form-control m-input m-input--square"
+                                                                   value="سلواد - رام الله">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>منطقة النهاية:</label>
+                                                            <input type="text" disabled
+                                                                   class="form-control m-input m-input--square"
+                                                                   value="يطا - الخليل	">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>رقم هاتف السائق:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="0595779004">
+                                                <div class="row ">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>سعر الحمولة:</label>
+                                                            <input type="text" disabled
+                                                                   class="form-control m-input m-input--square"
+                                                                   value="500 ₪">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>سعر التوصيل:</label>
+                                                            <input type="text" disabled
+                                                                   class="form-control m-input m-input--square"
+                                                                   value="20 ₪">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="row ">
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>منطقة البداية:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="سلواد - رام الله">
+                                                <div class="row ">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>عدد الطرود:</label>
+                                                            <input type="text" disabled
+                                                                   class="form-control m-input m-input--square"
+                                                                   value="5">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>محتوى الحمولة:</label>
+                                                            <input type="text" disabled
+                                                                   class="form-control m-input m-input--square"
+                                                                   value="لابتوبات">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>منطقة النهاية:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="يطا - الخليل	">
+                                                <div class="row ">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group m-form__group mb-4">
+                                                            <label>وقت استلام الطلب:</label>
+                                                            <input type="text" disabled dir="ltr"
+                                                                   class="form-control text-left m-input m-input--square"
+                                                                   value="10/01 01:00 PM">
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="row ">
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>سعر الحمولة:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="500 ₪">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>سعر التوصيل:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="20 ₪">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row ">
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>عدد الطرود:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="5">
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>محتوى الحمولة:</label>
-                                                        <input type="text" disabled
-                                                               class="form-control m-input m-input--square"
-                                                               value="لابتوبات">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row ">
-                                                <div class="col-lg-6">
-                                                    <div class="form-group m-form__group mb-4">
-                                                        <label>وقت استلام الطلب:</label>
-                                                        <input type="text" disabled dir="ltr"
-                                                               class="form-control text-left m-input m-input--square"
-                                                               value="10/01 01:00 PM">
-                                                    </div>
-                                                </div>
 
+                                                </div>
+                                                <div class="row invoice-footer align-items-center mt-3">
+                                                    <div class="col-auto">
+                                                        <img src="assets/images/logo.png" class="invoice-footer-logo" alt="">
+                                                    </div>
+                                                    <div class="col">
+                                                        <ul class="invoice-footer-icon list-inline text-right m-0 p-0">
+                                                            <li class="list-inline-item ">
+                                                                <p>-العنوان: </p>
+                                                                فلسطين رام الله حي حي
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <p>-هاتف رقم: </p>
+                                                                00970595779004
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <p>- بريد الكروني: </p>
+                                                                example@example.com
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="row">
+                                            <div class="row print-d-none">
                                                 <div class="col-12 px-5 mt-4">
                                                     <ul class="list-inline justify-content-center text-center marker-icon">
                                                         <li class="list-inline-item mr-0">
@@ -271,6 +335,173 @@
 
 <!-- end:: Page -->
 
+<!--begin::Modal-->
+<div class="modal fade" id="m_modal_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <form action="#">
+
+        <div class="modal-dialog modal-lg  modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">تعديل بيانات الطلبيه</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">اسم صاحب الطلب:</label>
+                                <input type="text" class="form-control m-input"
+                                       value="حمزة" placeholder="اسم صاحب الطلب">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">رقم هاتف صاحب الطلب:</label>
+                                <input type="text" class="form-control m-input"
+                                       value="0595779004" placeholder="رقم هاتف صاحب الطلب">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">اسم مستلم الطلب:</label>
+                                <input type="text" class="form-control m-input"
+                                       value="اسم مستلم الطلب" placeholder="اسم مستلم الطلب">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">رقم هاتف مستلم الطلب:</label>
+                                <input type="text" class="form-control m-input"
+                                       value="0595779004" placeholder="رقم هاتف مستلم الطلب">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">منطقة البداية:</label>
+                                <input type="text" class="form-control m-input"
+                                       value="منطقة البداية" placeholder="منطقة البداية">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">منطقة النهاية:</label>
+                                <input type="text" class="form-control m-input"
+                                       value="منطقة النهاية" placeholder="منطقة النهاية">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">السائق:</label>
+                                <input type="text" class="form-control m-input"
+                                       value="منطقة النهاية" placeholder="منطقة النهاية">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">قيمة التحصيل:</label>
+                                <div class="input-group">
+                                    <input type="number" class="form-control m-input" value="10" placeholder="قيمة التحصيل" aria-describedby="basic-addon2">
+                                    <div class="input-group-append"><span class="input-group-text" id="basic-addon2">₪</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                    <button type="submit" class="btn btn-primary">تعديل</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="modal fade" id="m_modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <form action="#">
+
+        <div class="modal-dialog  modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">رسوم اضافية</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-group m-form__group">
+                                <label for="exampleInputEmail1">رسوم اضافية:</label>
+                                <div class="input-group">
+                                    <input type="number" class="form-control m-input" value="10" placeholder="رسوم اضافية" aria-describedby="basic-addon2">
+                                    <div class="input-group-append"><span class="input-group-text" id="basic-addon2">₪</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                    <button type="submit" class="btn btn-primary">تعديل</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="modal fade" id="m_modal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <form action="#">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">قبول الطلب</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        هل انت متأكد من قبول طلب التوصيل؟
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                    <button type="button" class="btn btn-success">تفعيل</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="modal fade" id="m_modal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+     aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <form action="#">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">رفض الطلب</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        هل انت متأكد من رفض طلب التوصيل؟
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                    <button type="submit" class="btn btn-danger">رفض</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
 
 <!-- begin::Scroll Top -->
 <div id="m_scroll_top" class="m-scroll-top">

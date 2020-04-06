@@ -114,6 +114,20 @@
                 </div>
             </li>
             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="collections.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fas fa-donate">
+                    </i><span class="m-menu__link-text">التحصيلات اليومية</span>
+                </a>
+
+            </li>
+            <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
+                <a href="list.php" class="m-menu__link m-menu__toggle">
+                    <i class="m-menu__link-icon fas fa-list-ul">
+                    </i><span class="m-menu__link-text">الباقات</span>
+                </a>
+
+            </li>
+            <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true" m-menu-submenu-toggle="hover">
                 <a href="contact.php" class="m-menu__link m-menu__toggle">
                     <i class="m-menu__link-icon flaticon-chat-1"></i>
                         <span class="m-menu__link-title">
