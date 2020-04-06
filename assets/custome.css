@@ -59,7 +59,7 @@ html, body{
 
 .infoBox > img {
     position: absolute !important;
-    right: 60px !important;
+    left: 10px !important;
     top: 10px !important;
     z-index: 9999;
     width: 20px;
@@ -78,8 +78,8 @@ html, body{
 }
 
 .marker_info {
-    width: 240px;
-    height: 150px;
+    width: 260px;
+    height: auto;
     border-radius: 5px;
     text-align: right;
     background: white;
@@ -127,20 +127,6 @@ html, body{
     font-weight: 500;
 }
 
-.marker_info:after {
-    right: 100%;
-    top: 56%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: transparent;
-    border-right-color: white;
-    border-width: 12px;
-    margin-top: -12px;
-}
 
 a.btn_infobox_detail {
     position: absolute;
@@ -603,4 +589,102 @@ input[type="file"].parsley-error + ul.parsley-errors-list{
     .my-d-button button{
         margin-right: auto !important;
     }
+}
+#driver_map{
+    width: 100%;
+    height: 350px;
+}
+a.btn_infobox_detail {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 20px;
+    height: 20px; }
+
+a.btn_infobox_detail i {
+    color: #0054a6;
+    font-size: 16px;
+    transition: all ease-in-out 0.3s;
+    transform: scale(1); }
+
+a.btn_infobox_detail:hover i {
+    transform: scale(1.1); }
+
+a.btn_infobox_detail:before:hover {
+    color: #fc5b62; }
+
+.btn_infobox_get_directions, a.btn_infobox_phone {
+    border: none;
+    display: inline-block;
+    font-weight: 500;
+    color: #fc5b62;
+    background: none;
+    cursor: pointer;
+    font-size: 0.8125rem;
+    position: relative;
+    margin-bottom: 10px;
+    font-family: 'Cairo', sans-serif;
+    outline: none;
+    padding: 0; }
+
+.btn_infobox_get_directions:focus, a.btn_infobox_phone:focus {
+    outline: none; }
+
+.btn_infobox_get_directions:hover, a.btn_infobox_phone:hover {
+    color: #333; }
+
+span.infobox_rate {
+    display: inline-block;
+    margin: -44px -20px 0 0;
+    float: right;
+    background-color: #0054a6;
+    font-family: 'Cairo', sans-serif;
+    padding: 5px 8px;
+    font-weight: 500;
+    text-align: left;
+    font-size: 0.75rem; }
+
+.input-group .input-group-prepend > .input-group-text {
+    background-color: transparent;
+    border-color: #DDDFE1;
+    color: #2A2A2A;
+    font-size: 20px;
+    padding: 7px; }
+
+.marker_info span {
+    display: block;
+    padding: 10px;
+    position: relative; }
+
+.marker_info {
+    border-radius: 8px; }
+.marker_info .driver-details-card .media-body h5 a.driver-name {
+    position: relative;
+    font-size: 14px; }
+.marker_info .driver-details-card .media-body h5 a.driver-name img {
+    margin-left: 3px;
+    margin-bottom: 2px; }
+.map-title {
+    color: #2A2A2A;
+    font-size: 19px; }
+.map-title span {
+    color: #2BBE65;
+    font-size: 23px;
+    font-weight: 600; }
+
+.driver-phone {
+    font-size: 14px; }
+
+.user-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px; }
+.link-one{
+    font-size: 13px !important;
+}
+.bg-grayF {
+    background: #F1F1F1;
+}
+.marker_info {
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2);
 }

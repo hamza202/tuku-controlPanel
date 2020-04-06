@@ -16,125 +16,102 @@ function initAutocomplete() {
         markersData = {
             'Marker': [
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
                     location_latitude: 48.865633,
                     location_longitude: 2.321236,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'tourism'
+                    name: 'hamza abo aitah',
+                    user_link: '#',
+                    user_image: 'assets/images/img2.png',
+                    phone: '+966 560010002'
                 },
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
+                    name: 'ahmed mahmoud',
                     location_latitude: 48.854183,
                     location_longitude: 2.354808,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'tourism'
+                    user_link: '#',
+                    user_image: 'assets/images/img2.png',
+                    phone: '+966 560010002'
                 },
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
+                    name: 'waseem barzaq',
                     location_latitude: 48.863893,
                     location_longitude: 2.342348,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'health'
+                    user_link: '#',
+                    user_image: 'assets/images/img2.png',
+                    phone: '+966 560010002'
+                },
+                {
+                    name: 'saeed ahmed',
+                    location_latitude: 48.860642,
+                    location_longitude: 2.352245,
+                    user_link: '#',
+                    user_image: 'assets/images/img2.png',
+                    phone: '+966 560010002'
 
                 },
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
-                    location_latitude: 48.860642,
-                    location_longitude: 2.352245,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'health'
-                },
-                {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
+                    name: 'mahmoud shabat',
                     location_latitude: 48.858370,
                     location_longitude: 2.294481,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'education'
+                    user_link: '#',
+                    user_image: 'assets/images/profile_user.jpg',
+                    phone: '+966 560010002',
                 },
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
+                    name: 'mahmoud abo zyara',
                     location_latitude: 48.837273,
                     location_longitude: 2.335387,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'education'
+                    user_link: '#',
+                    user_image: 'assets/images/profile_user.jpg',
+                    phone: '+966 560010002',
                 },
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
+                    name: 'khaled saeed',
                     location_latitude: 48.860819,
                     location_longitude: 2.354507,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'business'
+                    user_link: '#',
+                    user_image: 'assets/images/img2.png',
+                    phone: '+966 560010002'
                 },
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
+                    name: 'moammer al swafere',
                     location_latitude: 48.853798,
                     location_longitude: 2.333328,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'business'
+                    user_link: '#',
+                    user_image: 'assets/images/img2.png',
+                    phone: '+966 560010002'
                 },
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
+                    name: 'abdalazeez ahmed',
                     location_latitude: 48.862880,
                     location_longitude: 2.287205,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'business'
+                    user_link: '#',
+                    user_image: 'assets/images/profile_user.jpg',
+                    phone: '+966 560010002'
                 },
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
+                    name: 'hamza hamza',
                     location_latitude: 48.865784,
                     location_longitude: 2.307314,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'health'
+                    user_link: '#',
+                    user_image: 'assets/images/img2.png',
+                    phone: '+966 560010002'
                 },
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
+                    name: 'fayeq melad',
                     location_latitude: 48.852729,
                     location_longitude: 2.350564,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'health'
+                    user_link: '#',
+                    user_image: 'assets/images/img2.png',
+                    phone: '+966 560010002',
+                    services_image: 'assets/images/img1.svg'
                 },
                 {
-                    type_point: 'هذا النص نص تجريبي مختصر عن تفاصيل الاعلان...',
-                    name: 'اسم المطعم',
+                    name: 'saleh habosh',
                     location_latitude: 48.870587,
                     location_longitude: 2.318943,
-                    name_point: 'اسم المطعم',
-                    get_directions_start_address: '',
-                    url_point: 'advertising-details.php',
-                    category: 'education'
+                    user_link: '#',
+                    user_image: 'assets/images/img2.png',
+                    phone: '+966 560010002'
                 }
             ]
 
@@ -148,10 +125,8 @@ function initAutocomplete() {
         mapTypeControlOptions: {
             // style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
             // mapTypeIds: [google.maps.MapTypeId.SATELLITE, google.maps.MapTypeId.ROADMAP],
-            // position: google.maps.ControlPosition.LEFT_CENTER
+            position: google.maps.ControlPosition.LEFT_TOP
         },
-
-        // mapTypeId: google.maps.MapTypeId.HYBRID,
         panControl: false,
         panControlOptions: {
             position: google.maps.ControlPosition.TOP_RIGHT
@@ -159,20 +134,17 @@ function initAutocomplete() {
         zoomControl: true,
         zoomControlOptions: {
             style: google.maps.ZoomControlStyle.LARGE,
-            position: google.maps.ControlPosition.TOP_LEFT
+            position: google.maps.ControlPosition.BOTTM_LEFT
         },
         scrollwheel: false,
         scaleControl: false,
         scaleControlOptions: {
             position: google.maps.ControlPosition.TOP_LEFT
         },
-        streetViewControl: true,
-        streetViewControlOptions: {
-            position: google.maps.ControlPosition.LEFT_TOP
-        },
+
     };
     var marker;
-    mapObject = new google.maps.Map(document.getElementById('map'), mapOptions);
+    mapObject = new google.maps.Map(document.getElementById('driver_map'), mapOptions);
     for (var key in markersData)
 
         filterMarkers = function (category) {
@@ -180,17 +152,23 @@ function initAutocomplete() {
                 marker = new google.maps.Marker({
                     position: new google.maps.LatLng(item.location_latitude, item.location_longitude),
                     map: mapObject,
-                    // mapTypeId: 'satellite',
-                    icon: 'assets/images/pins/marker1.png',
+                    mapTypeId: 'satellite',
+                    icon: 'assets/images/car-marker.png',
                     // visible: false
                 });
 
-                console.log(category);
-                if (item.category === category || category === 0) {
+
+                // var controlUI = document.getElementById('#div');
+                //
+                // // Setup the click event listeners to geolocate user
+                // google.maps.event.addDomListener(controlUI, 'click', geolocate);
+
+
+                // console.log(item.category);
+                // console.log(category);
+                if (item.category === category || category === 0 || category === 'all') {
                     marker.setMap(mapObject);
                 }
-
-
                 // Categories don't match
                 else {
                     marker.setMap(null);
@@ -218,66 +196,40 @@ function initAutocomplete() {
 
         };
     filterMarkers(0);
-    var MyLocation = document.getElementById('myLocation');
-    mapObject.controls[google.maps.ControlPosition.TOP_RIGHT].push(MyLocation);
-    geolocate = function geolocate() {
 
-        if (navigator.geolocation) {
 
-            navigator.geolocation.getCurrentPosition(function (position) {
 
-                var pos = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-
-                // Create a marker and center map on user location
-                marker.setMap(null);
-                marker = new google.maps.Marker({
-                    position: pos,
-                    draggable: true,
-                    animation: google.maps.Animation.DROP,
-                    icon: 'assets/images/pins/marker.png',
-                    map: mapObject,
-
-                });
-                mapObject.setCenter(new google.maps.LatLng(position.coords.latitude, position.coords.longitude));
-                mapObject.setZoom(16);
-            });
-        }
-    };
-
-    hideAllMarkers = function hideAllMarkers() {
-        for (var key in markers)
-            markers[key].forEach(function (marker) {
-                marker.setMap(null);
-            });
-    };
-    ShowAllMarkers = function hideAllMarkers() {
-        for (var key in markers)
-            markers[key].forEach(function (marker) {
-                marker.setMap(mapObject);
-            });
-    };
     function closeInfoBox() {
         $('div.infoBox').remove();
-    }
-    closeBox = function () {
-        $('div.infoBox').remove();
-    } ;
+    };
+    // mapObject.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+    // Listen for the event fired when the user selects a prediction and retrieve
+    // more details for that place.
+    // mapObject.addListener('bounds_changed', function () {
+    //     searchBox.setBounds(mapObject.getBounds());
+    // });
+
 
     function getInfoBox(item) {
         return new InfoBox({
             content:
-                '<div class="marker_info" id="marker_info">' +
+                '<div class="marker_info bg-grayF" id="marker_info">' +
                 '<span>' +
-                '<h3>' + item.name_point + '</h3>' +
-                '<em>' + item.type_point + '</em>' +
-                '<strong>' + item.description_point + '</strong>' +
-                '<a href="' + item.url_point + '" class="btn_infobox_detail"><i class="fa fa-link"></i>	</a>' +
-                '<form action="http://maps.google.com/maps" method="get" target="_blank"><input name="saddr" value="' + item.get_directions_start_address + '" type="hidden"><input type="hidden" name="daddr" value="' + item.location_latitude + ',' + item.location_longitude + '"><button type="submit" value="Get directions" class="btn_infobox_get_directions">الموقع على الخرائط <i class="far fa-compass"></i> </button></form>' +
+                '<div class="media driver-details-card">' +
+                '<img class="mr-2 user-img" src="' + item.user_image + '" alt="no image">' +
+                '<div class="media-body">' +
+                '<h5 class="mt-0">' +
+                '<a href="' + item.user_link + '" class="driver-name link-one">' + item.name +
+                '</a>' +
+                '</h5>' +
+                '<a class="link-one driver-phone fw-500" href="tel:' + item.phone + '">' + item.phone + '</a>' +
+                '</div>' +
+                '</div>' +
                 '</span>' +
                 '</div>',
             disableAutoPan: false,
             maxWidth: 0,
-            pixelOffset: new google.maps.Size(11, 40),
+            pixelOffset: new google.maps.Size(1, 50),
             closeBoxMargin: '',
             closeBoxURL: "assets/images/close_infobox.png",
             isHidden: false,
@@ -285,7 +237,6 @@ function initAutocomplete() {
             pane: 'floatPane',
             enableEventPropagation: true
         });
-
 
     }
 
