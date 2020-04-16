@@ -278,6 +278,7 @@
                                         </h3>
                                     </div>
                                 </div>
+
                             </div>
                             <div class="m-portlet__body">
                                 <div class="row m-row--no-padding m-row--col-separator-xl">
@@ -329,9 +330,20 @@
                                                     </div>
                                                 </a>
                                             </div>
+                                            <div class="m-widget1__item">
+                                                <a href="#" class="d-block">
+                                                    <div class="row m-row--no-padding align-items-center">
+                                                        <div class="col">
+                                                            <h3 class="m-widget1__title">جميع الطلبات</h3>
+                                                        </div>
+                                                        <div class="col-auto m--align-right">
+                                                            <span class="m-widget1__number m--font-success">200</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
 
                                         </div>
-
                                         <!--begin:: Widgets/Stats2-2 -->
                                     </div>
                                     <div class="col-md-12 col-lg-12 col-xl-4">
@@ -368,6 +380,220 @@
 
                                         <!--begin:: Widgets/Stats2-3 -->
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="m-portlet">
+                            <div class="m-portlet__head">
+                                <div class="m-portlet__head-caption">
+                                    <div class="m-portlet__head-title">
+
+                                        <h3 class="m-portlet__head-text">
+                                            المقبولة
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="m-portlet__head-tools">
+                                    <button data-toggle="modal" data-target="#m_modal_2"
+                                            class="btn btn-warning m-btn m-btn--custom fw-600">
+                                    <span class="m-auto">
+                                        <span> تحصيل </span>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="m-portlet__body">
+                                <div class="table-responsive">
+                                    <!--begin: Datatable -->
+                                    <table class="table table-striped- table-bordered table-hover table-checkable no-nowrap"
+                                           id="m_table_2">
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                <label class="m-checkbox m-checkbox--single m-checkbox--solid m-checkbox--brand">
+                                                    <input type="checkbox" value="" class="m-checkable main-check">
+                                                    <span></span>
+                                                </label>
+                                            </th>
+                                            <th>ID</th>
+                                            <th>رقم الطلب</th>
+                                            <th>نوع المستخدم</th>
+                                            <th> اسم صاحب الطلب</th>
+                                            <th>مكان الإستلام</th>
+                                            <th>عنوان الإستلام</th>
+                                            <th>رقم المستلم</th>
+                                            <th>مكان التسليم</th>
+                                            <th>عنوان التسليم</th>
+                                            <th>نوع الطرد</th>
+                                            <th>عدد الطرود</th>
+                                            <th>الوزن</th>
+                                            <th>تفاصيل اضافية</th>
+                                            <th>سعر التوصيل</th>
+                                            <th>سعر الطرد</th>
+                                            <th>السعر الإجمالي</th>
+                                            <th>وقت الإنشاء</th>
+                                            <th>عمليات</th>
+                                            <th>تفاصيل</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <label class="m-checkbox m-checkbox--single m-checkbox--solid m-checkbox--brand">
+                                                    <input type="checkbox" value="" class="m-checkable">
+                                                    <span></span>
+                                                </label>
+                                            </td>
+                                            <td>1</td>
+                                            <td>رقم الطلب</td>
+                                            <td>شركة</td>
+                                            <td> حمزة خميس</td>
+                                            <td>مكان الإستلام</td>
+                                            <td>عنوان الإستلام</td>
+                                            <td>رقم المستلم</td>
+                                            <td>مكان التسليم</td>
+                                            <td>عنوان التسليم</td>
+                                            <td>صندوق هدايا</td>
+                                            <td>عدد الطرود</td>
+                                            <td>الوزن</td>
+                                            <td>تفاصيل اضافية</td>
+                                            <td>سعر التوصيل</td>
+                                            <td>سعر الطرد</td>
+                                            <td>السعر الإجمالي</td>
+                                            <td>وقت الإنشاء</td>
+                                            <td>
+                                     <span class="dropdown user-option">
+                                        <a href="#"
+                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
+                                           data-toggle="dropdown"
+                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left user-option">
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                    class="la la-check"></i> قبول الطلب  </a>
+
+
+                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
+                                                  data-target="#m_modal_3">
+                                                   <i class="la la-power-off"></i> رفض الطلب</a>
+                                        </div>
+                                    </span>
+                                            </td>
+                                            <td>
+                                                <a href="existing-requests-details.php"
+                                                   class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom
+                                       m-btn--pill m-btn--air">
+                                                    <i class="far fa-eye"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label class="m-checkbox m-checkbox--single m-checkbox--solid m-checkbox--brand">
+                                                    <input type="checkbox" value="" class="m-checkable">
+                                                    <span></span>
+                                                </label>
+                                            </td>
+                                            <td>2</td>
+                                            <td>رقم الطلب</td>
+                                            <td>فرد</td>
+                                            <td> فوزي نوفل</td>
+                                            <td>مكان الإستلام</td>
+                                            <td>عنوان الإستلام</td>
+                                            <td>رقم المستلم</td>
+                                            <td>مكان التسليم</td>
+                                            <td>عنوان التسليم</td>
+                                            <td>باقة ورد</td>
+                                            <td>عدد الطرود</td>
+                                            <td>الوزن</td>
+                                            <td>تفاصيل اضافية</td>
+                                            <td>سعر التوصيل</td>
+                                            <td>سعر الطرد</td>
+                                            <td>السعر الإجمالي</td>
+                                            <td>وقت الإنشاء</td>
+                                            <td>
+                                     <span class="dropdown user-option">
+                                        <a href="#"
+                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
+                                           data-toggle="dropdown"
+                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left user-option">
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                    class="la la-check"></i> قبول الطلب  </a>
+
+
+                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
+                                                  data-target="#m_modal_3">
+                                                   <i class="la la-power-off"></i> رفض الطلب</a>
+                                        </div>
+                                    </span>
+                                            </td>
+                                            <td>
+                                                <a href="existing-requests-details.php"
+                                                   class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom
+                                       m-btn--pill m-btn--air">
+                                                    <i class="far fa-eye"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label class="m-checkbox m-checkbox--single m-checkbox--solid m-checkbox--brand">
+                                                    <input type="checkbox" value="" class="m-checkable">
+                                                    <span></span>
+                                                </label>
+                                            </td>
+                                            <td>2</td>
+                                            <td>رقم الطلب</td>
+                                            <td>فرد</td>
+                                            <td> وسيم برزق</td>
+                                            <td>مكان الإستلام</td>
+                                            <td>عنوان الإستلام</td>
+                                            <td>رقم المستلم</td>
+                                            <td>مكان التسليم</td>
+                                            <td>عنوان التسليم</td>
+                                            <td>اخرى</td>
+                                            <td>عدد الطرود</td>
+                                            <td>الوزن</td>
+                                            <td>تفاصيل اضافية</td>
+                                            <td>سعر التوصيل</td>
+                                            <td>سعر الطرد</td>
+                                            <td>السعر الإجمالي</td>
+                                            <td>وقت الإنشاء</td>
+                                            <td>
+                                     <span class="dropdown user-option">
+                                        <a href="#"
+                                           class="btn m-btn m-btn--hover-brand m-btn--icon m-btn--icon-only m-btn--pill"
+                                           data-toggle="dropdown"
+                                           aria-expanded="true"><i class="la la-ellipsis-h"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-left user-option">
+                                            <a class="dropdown-item" href="#m_modal_5" data-toggle="modal"
+                                               data-target="#m_modal_5"><i
+                                                    class="la la-check"></i> قبول الطلب  </a>
+
+
+                                               <a class="dropdown-item" href="#m_modal_3" data-toggle="modal"
+                                                  data-target="#m_modal_3">
+                                                   <i class="la la-power-off"></i> رفض الطلب</a>
+                                        </div>
+                                    </span>
+                                            </td>
+                                            <td>
+                                                <a href="existing-requests-details.php"
+                                                   class="btn btn-outline-info m-btn m-btn--icon m-btn--icon-only m-btn--custom
+                                       m-btn--pill m-btn--air">
+                                                    <i class="far fa-eye"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -418,78 +644,94 @@
     </div>
 </div>
 
+<div class="modal fade" id="m_modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <form action="catch-receipt.php">
+
+        <div class="modal-dialog modal-lg  modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">تحصيل</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="m-widget1">
+                                <div class="m-widget1__item">
+                                    <div class="row m-row--no-padding align-items-center">
+                                        <div class="col">
+                                            <h3 class="m-widget1__title">عدد الطلبات المحصلة </h3>
+                                        </div>
+                                        <div class="col-auto m--align-right">
+                                            <span class="m-widget1__number m--font-primary">10</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="m-widget1__item">
+                                    <div class="row m-row--no-padding align-items-center">
+                                        <div class="col">
+                                            <h3 class="m-widget1__title">اجمالي المبلغ المحصل</h3>
+                                        </div>
+                                        <div class="col-auto m--align-right">
+                                            <span class="m-widget1__number m--font-success">200 ₪</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                    <button type="submit" class="btn btn-primary">تحصيل</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
 <!--end::Modal-->
 <!--begin::Global Theme Bundle -->
 <script src="assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 <script src="assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
+<script src="assets/vendors/custom/datatables/datatables.bundle.js" type="text/javascript"></script>
+
 <script>
-    const calculateSale = (listPrice, discount) => {
-        listPrice = parseFloat(listPrice);
-        discount = parseFloat(discount);
-        return (listPrice - (listPrice * discount / 100)) // Sale price
-    }
-    const calculateDiscount = (listPrice, salePrice) => {
-        listPrice = parseFloat(listPrice);
-        salePrice = parseFloat(salePrice);
-        return 100 - (salePrice * 100 / listPrice); // Discount percentage
-    }
+    var DatatablesBasicHeaders = {
+        init: function () {
+            var table = $("#m_table_2");
+            table.DataTable({
+                responsive: true,
+                initComplete: function () {
 
-    // Our use case
-    const $list = $('input[name="list"]'),
-        $disc = $('input[name="disc"]'),
-        $sale = $('input[name="sale"]');
+                }
+            });
 
-    $list.add($disc).on('input', () => { // List and Discount inputs events
-        let sale = $list.val();              // Default to List price
-        if ($disc.val().length) {          // if value is entered- calculate sale price
-            sale = calculateSale($list.val(), $disc.val());
+            $('.filter-column1').on('keyup change', function () {
+                table.dataTable().fnFilter(this.value, 3);
+            });
+            $('.filter-column2').on('keyup change', function () {
+                table.dataTable().fnFilter(this.value, 9);
+            });
+
         }
-        $sale.val(sale);
+    };
+    jQuery(document).ready(function () {
+        DatatablesBasicHeaders.init()
     });
 
-    $sale.on('input', () => {      // Sale input events
-        let disc = 0;                // Default to 0%
-        if ($sale.val().length) {  // if value is entered- calculate the discount
-            disc = calculateDiscount($list.val(), $sale.val());
-        }
-        $disc.val(disc);
-    });
-
-    // Init!
-    $list.trigger('input');
-
-
-    $(document).on("input", ".disc", function () {
-        var amd = $('input[name="list"]').val();
-        var disc = $(this).val();
-        if (disc != '' && amd != '') {
-            $('input[name="sale"]').val((parseInt(amd)) - (parseInt(disc)));
+</script>
+<script>
+    $('.main-check').on('change', function () {
+        if ($(this).is(":checked")) {
+            $('tbody .m-checkable').prop("checked", 1)
         } else {
-            $('input[name="sale"]').val(parseInt(amd));
+            $('tbody .m-checkable').prop("checked", !1)
         }
-    });
-
-    $(function () {
-        $("input[name='example_2']").click(function () {
-            if ($("#percent_check").is(":checked")) {
-                $("#percent_input").show();
-                $("#amount_input").hide();
-            }
-            if ($("#amount_check").is(":checked")) {
-                $("#amount_input").show();
-                $("#percent_input").hide();
-            }
-            $('#amount_input input').val('');
-            $('#percent_input input').val('');
-            $('input[name="sale"]').val($('input[name="list"]').val());
-        });
-    });
-    $('.modal').on('hidden.bs.modal', function () {
-        $('#amount_input input').val('');
-        $('#percent_input input').val('');
-        $('input.disc').val('');
-        $('input[name="sale"]').val($('input[name="list"]').val());
-    });
+    })
 </script>
 <!--end::Global Theme Bundle -->
 
