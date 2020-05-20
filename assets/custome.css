@@ -536,6 +536,15 @@ input[type="file"].parsley-error + ul.parsley-errors-list{
 .invoice-footer{
     display: none;
 }
+.title-print{
+    border: 1px solid #03a9f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.title-print h3{
+    font-size: 22px;
+}
 @media print {
     .myDivToPrint {
         background-color: white;
@@ -549,6 +558,14 @@ input[type="file"].parsley-error + ul.parsley-errors-list{
         font-size: 14px;
         line-height: 18px;
     }
+    .header-invoice-img{
+        max-width: 170px;
+        height: auto;
+    }
+    .col-md-6-print{
+        flex: 0 0 50.0%;
+        max-width: 50.0%;
+    }
     .invoice-footer{
         display: flex;
     }
@@ -558,10 +575,37 @@ input[type="file"].parsley-error + ul.parsley-errors-list{
     .btn, .print-d-none ,#m_header{
         display: none;
     }
+    .invoice-footer-icon li b{
+        color: #0f0f11; !important;
+    }
+    .col-md-6-print label{
+        font-size: 20px;
+    }
+    .col-md-6-print input{
+        font-size: 20px;
+    }
 }
 .invoice-footer-logo{
     width: 90px;
     height: auto;
+}
+.invoice-footer-icon li{
+    padding-right: 10px;
+    position: relative;
+    font-size: 17px;
+    text-align: right;
+}
+.invoice-footer-icon li span{
+    color: #0f0f11; !important;
+    font-weight: 600;
+}
+.invoice-footer-icon li:before{
+    position: absolute;
+    content: '-';
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
 }
 .invoice-footer-icon li{
     padding-right: 10px;
